@@ -30,19 +30,19 @@ if $CALCULATOR 3 @ 2; then  # If the return code of $PROGRAM is zero (i.e. succe
   exit 1
 fi
 
-# Test 04: Ensure subtraction case has correct output...
+# Test 04: Ensure subtraction case has correct output
 if [[ $($CALCULATOR 231 - 56) -ne 175 ]]; then  
   echo 'ERROR! A valid run of the calculator (231 - 56) failed to produce 175 as an output!'
   exit 1
 fi
 
-# Test 05: Ensure multiplication case has correct output...
+# Test 05: Ensure multiplication case has correct output
 if [[ $($CALCULATOR 5 '*' 17) -ne 85 ]]; then  
   echo 'ERROR! A valid run of the calculator (5 '*' 17) failed to produce 85 as an output!'
   exit 1
 fi
 
-# Test 06: Ensure divison case has correct output...
+# Test 06: Ensure divison case has correct output
 if [[ $($CALCULATOR 120 / 4) -ne 30 ]]; then  
   echo 'ERROR! A valid run of the calculator (120 / 4) failed to produce 30 as an output!'
   exit 1
