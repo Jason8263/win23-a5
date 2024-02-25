@@ -1,0 +1,7 @@
+insertionsort
+while j >= 0 and v < array[j]:
+for i in range(len(array)):
+right = [i for i in array[1:] if i >= pivot]
+right = [i for i in array[1:] if i >= pivot]
+if array[i] <= pivot:
+quicksort_inplace(array, low, j)
